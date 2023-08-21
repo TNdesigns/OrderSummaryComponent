@@ -95,3 +95,19 @@ p{
     font-family:sans-serif;
     text-decoration:none;
 }
+@media screen  and (max-width:420px){
+    body,html,.bx{
+        overflow-x:hidden;
+        min-width:0px;
+        overflow: hidden;
+        
+    }
+    .bx{
+        /*height:75vh;
+        width:82vw;*/
+        position: relative;
+        left:4vw;
+        top:-74vw;
+        overflow-x: hidden;
+    }
+}
